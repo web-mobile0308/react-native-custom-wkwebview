@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-wkwebview-reborn@file:../",
+        "scope": null,
+        "escapedName": "react-native-wkwebview-reborn",
+        "name": "react-native-wkwebview-reborn",
+        "rawSpec": "file:../",
+        "spec": "/Users/insraq/Projects/react-native-wkwebview",
+        "type": "directory"
+      },
+      "/Users/insraq/Projects/react-native-wkwebview/example"
+    ]
+  ],
+  "_from": "react-native-wkwebview-reborn",
+  "_id": "react-native-wkwebview-reborn@2.0.0",
+  "_inBundle": false,
+  "_inCache": true,
+  "_integrity": "sha512-upHQ471Wv4uV1/t6ZivYQVm05NyLRKZW8es/EdBl7UCdDoDVWD+1RBhu70ACPyW8EjX1DpMgK0SZvA4o0dt+8w==",
+  "_location": "/react-native-wkwebview-reborn",
+  "_phantomChildren": {
+    "isomorphic-fetch": "2.2.1",
+    "loose-envify": "1.4.0",
+    "object-assign": "4.1.1",
+    "promise": "7.3.1",
+    "setimmediate": "1.0.5",
+    "ua-parser-js": "0.7.21"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-wkwebview-reborn",
+    "name": "react-native-wkwebview-reborn",
+    "escapedName": "react-native-wkwebview-reborn",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-wkwebview-reborn/-/react-native-wkwebview-reborn-2.0.0.tgz",
+  "_shasum": "59e29eb3fada6efccd6c41f43f523ff89920c91b",
+  "_shrinkwrap": null,
+  "_spec": "react-native-wkwebview-reborn",
+  "_where": "/Volumes/Data/Work/MyRepo/riserun-stats-mobile",
+  "author": {
+    "name": "Ruoyu Sun",
+    "email": "ruoysun@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/CRAlpha/react-native-wkwebview/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "fbjs": "^0.8.3"
+  },
+  "deprecated": false,
+  "description": "React Native WKWebView for iOS",
+  "devDependencies": {},
+  "gitHead": "5c1809c67ca87e531727b51f751db0e71dfebf9b",
+  "homepage": "https://github.com/CRAlpha/react-native-wkwebview",
+  "keywords": [
+    "react",
+    "native",
+    "wkwebview",
+    "webview",
+    "ios"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-wkwebview-reborn",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "prop-types": "^15.6.0"
+  },
+  "pre-push#master": [
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CRAlpha/react-native-wkwebview.git"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js --ext .jsx .",
+    "sync-from-example": "cp ./example/node_modules/react-native-wkwebview-reborn/*.js ./;cp -r ./example/node_modules/react-native-wkwebview-reborn/ios ./",
+    "sync-to-example": "cp ./*.js ./example/node_modules/react-native-wkwebview-reborn/;cp -r ./ios ./example/node_modules/react-native-wkwebview-reborn/"
+  },
+  "version": "2.0.0"
+}
